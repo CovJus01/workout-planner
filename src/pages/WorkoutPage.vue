@@ -1,4 +1,5 @@
 <script setup>
+import Exercise from "../components/Exercise.vue";
 defineProps({
   workoutName: {
     type: String,
@@ -8,7 +9,8 @@ defineProps({
 </script>
 
 <template>
-  <h2>WORKOUTPAGE</h2>
+  <h2>{Workout Name}</h2>
+  <Exercise />
 </template>
 
 <style scoped>
