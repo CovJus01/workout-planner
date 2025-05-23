@@ -1,10 +1,15 @@
 <script setup>
 import WorkoutTable from "../components/WorkoutTable.vue";
+const emit = defineEmits(["updatePage"]);
+
+function updatePage() {
+  emit("updatePage", "Workout");
+}
 </script>
 
 <template>
   <h2>Start a workout</h2>
-  <WorkoutTable />
+  <WorkoutTable @click="updatePage" />
 </template>
 
 <style scoped>
