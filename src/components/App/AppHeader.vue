@@ -7,7 +7,7 @@
 <template>
   <div class="header-container">
     <RouterLink to="/">
-      <h1>Wrkt</h1>
+      <h1 class ="oswald-bold">Wrkt</h1>
     </RouterLink>
   </div>
 </template>

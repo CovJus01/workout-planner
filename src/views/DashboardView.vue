@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import AppCard from "../components/App/AppCard.vue"
+import WorkoutCard from "../components/Dashboard/WorkoutCard.vue"
 </script>
 
 <template>
   <h2>
     Start
   </h2>
-  <AppCard>
-    workout1
-  </AppCard>
+  <WorkoutCard workout-title="Workout 1">
+    <p>32min 10 exercises</p>
+  </WorkoutCard>
   <h2>
     Stats
   </h2>
