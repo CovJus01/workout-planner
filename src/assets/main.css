@@ -5,7 +5,19 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: var(--aquamarine)
+  color: var(--aquamarine);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a,p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
 }
 
 
