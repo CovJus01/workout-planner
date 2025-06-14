@@ -9,6 +9,7 @@
   --black-mute: #282828;
 
   --light-onyx: #37393A;
+  --onyx: #323334;
   --dark-onyx: #28292A;
   --aquamarine: #0CBA9D;
 
@@ -50,5 +51,6 @@
 
 body {
   background-color: var(--dark-onyx);
+  color: var(--white-mute)
 }
 

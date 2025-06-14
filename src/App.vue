@@ -8,11 +8,16 @@ import AppHeader from './components/App/AppHeader.vue'
     <AppHeader/>
   </header>
   <main>
+    <div class="view-container">
     <RouterView/>
+    </div>
   </main>
 
 
 </template>
-
 <style scoped>
+.view-container {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 </style>
