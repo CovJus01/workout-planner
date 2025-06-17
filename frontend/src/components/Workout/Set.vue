@@ -49,19 +49,20 @@ defineProps<{
 
 .title {
   width: 100%;
-  color: var(--white-mute);
+  color: var(--light-indigo);
   font-weight: 700;
 }
 .input {
-
   padding-left: 20px;
   width: 35%;
+}
+p {
+  font-weight: 700;
 }
 
 label {
   font-size: 1.2rem;
-  color: var(--light-indigo);
-  font-weight: 700;
+  color: var(--white-mute);
 }
 
 input {
