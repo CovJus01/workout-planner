@@ -1,27 +1,27 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import AppHeader from './components/App/AppHeader.vue'
-import AppFooter from './components/App/AppFooter.vue'
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
-  <header>
-    <AppHeader/>
-  </header>
-  <main>
-    <div class="view-container">
-    <RouterView/>
+  <div class="app-container">
+    <AppHeader />
+    <div class="page-content">
+      <RouterView />
     </div>
-  </main>
-  <footer>
     <AppFooter />
-  </footer>
-
-
+  </div>
 </template>
+
 <style scoped>
-.view-container {
-  margin-left: 3vw;
-  margin-right: 3vw;
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  background-color: #1E2E2E;
+  flex: 1 0 0;
 }
 </style>
